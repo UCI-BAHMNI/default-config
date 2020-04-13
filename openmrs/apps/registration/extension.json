@@ -69,5 +69,17 @@
         },
         "order": 3,
         "requiredPrivilege": "Edit Visits"
+    },
+    "Vitals":{
+        "id": "my.form",
+        "extensionPointId": "org.bahmni.registration.conceptSetGroup.observations",
+        "type": "forms",
+        "extensionParams": {
+            "conceptNames": ["Height", "Weight"],
+            "formName": "Vitals",
+            "required":true,
+            "showLatest": true
+        },
+        "order": 5
     }
 }

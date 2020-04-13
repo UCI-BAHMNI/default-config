@@ -137,8 +137,16 @@
     "translationKey": "MODULE_LABEL_APPOINTMENT_SCHEDULING_KEY",
     "url": "../appointments",
     "icon": "fa fa-calendar",
-    "order": 14,
-    "requiredPrivilege": "app:appointments"
+    "order": 15
+  } ,
+  "moses": {
+    "id": "bahmni.appointment.moses",
+    "extensionPointId": "org.bahmni.home.dashboard",
+    "type": "link",
+    "translationKey": "OPENMRS_ADMIN",
+    "url": "/openmrs/admin/index.htm",
+    "icon": "icon-bahmni-admin",
+    "order": 16
   }
 
 }
