@@ -234,5 +234,15 @@
     "icon": "icon-user-md",
     "order": 7,
     "requiredPrivilege": "app:clinical:bacteriologyTab"
+  },
+  "Bahmni_UCI": {
+    "id": "bahmni.clinical.UCI",
+    "extensionPointId": "org.bahmni.clinical.consultation.board",
+    "type": "link",
+    "label": "UCI",
+    "translationKey":"BAhmni UCI",
+    "url": "/../../openmrs",
+    "icon": "icon-user-md",
+    "order": 7
   }
 }
